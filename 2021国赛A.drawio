@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T04:19:53.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="6SjiXkp4125TQ7H9vf3y" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T04:21:00.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="82ubNfkqM2BZUKyYd1Jx" version="24.3.0" type="github">
   <diagram name="Page-1" id="9Bk8yEt1bR16Bn5ANED8">
     <mxGraphModel dx="878" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
             <mxPoint x="200" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cA3oLWYooEIsHqK3JAKN-21" value="串口屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-21" value="显示屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="490" width="70" height="28" as="geometry" />
         </mxCell>
         <mxCell id="cA3oLWYooEIsHqK3JAKN-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cA3oLWYooEIsHqK3JAKN-15" target="cA3oLWYooEIsHqK3JAKN-8">
