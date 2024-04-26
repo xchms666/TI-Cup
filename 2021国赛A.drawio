@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T04:10:42.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.3.0" etag="GMiCCMLa8X3plRf4uZOP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T04:14:43.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="3iZ78VzJYD6j8MsHCfpX" version="24.3.0" type="github">
   <diagram name="Page-1" id="9Bk8yEt1bR16Bn5ANED8">
-    <mxGraphModel>
+    <mxGraphModel dx="746" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="411.25" width="260" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-1" value="信号调理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cA3oLWYooEIsHqK3JAKN-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="470" as="sourcePoint" />
+            <mxPoint x="140" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-4" value="外部谐波信号输入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="438" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cA3oLWYooEIsHqK3JAKN-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-5" value="ADC处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="444" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-6" value="DFT分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="444" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cA3oLWYooEIsHqK3JAKN-5" target="cA3oLWYooEIsHqK3JAKN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="410" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-10" value="&lt;div class=&quot;richTextContainer text-align-left&quot; dir=&quot;auto&quot;&gt;&lt;span style=&quot;white-space: pre;&quot; data-eleid=&quot;3&quot; class=&quot;text-only&quot;&gt;STM32F411CEU6&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cA3oLWYooEIsHqK3JAKN-1" target="cA3oLWYooEIsHqK3JAKN-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cA3oLWYooEIsHqK3JAKN-8" target="cA3oLWYooEIsHqK3JAKN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3oLWYooEIsHqK3JAKN-15" value="5V电源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
